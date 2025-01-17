@@ -1,0 +1,40 @@
+%% RUNNING CODE
+
+servoData = downPosition();
+offset = setOffset();
+servoData = servoData + offset;
+
+sendServoAngles(port,servoData);
+
+function sendServoAngles(serialPort,angles)
+    for i=1:length(angles)
+       fwrite(serialPort,angles(i));
+    end
+end
+
+%% SET POSITION
+function servoData = setPosition()
+    leg0=[90 90 90];
+    leg1=[90 90 90];
+    leg2=[90 90 90];
+    leg3=[90 90 90];
+    servoData = [leg0  leg1 leg2 leg3];
+end
+
+%% DOWN POSITION
+function servoData = downPosition()
+    leg0=[90 110 160];
+    leg1=[90 110 160];
+    leg2=[90 110 160];
+    leg3=[90 110 160];
+    servoData = [leg0  leg1 leg2 leg3];
+end
+
+%% OFFSET
+function offset = setOffset()
+    leg0=[0 10 0];
+    leg1=[0 0 0];
+    leg2=[-5 10 0];
+    leg3=[0 0 0];
+    offset = [leg0  leg1 leg2 leg3];
+end

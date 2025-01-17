@@ -1,0 +1,163 @@
+
+
+void shake(){
+  int angle3 = 90;
+ 
+  pwm.setPWM(servopin1[3], 0, map(angle3,0,205,70,515));
+
+  angle3 = 50;
+     
+  pwm.setPWM(servopin2[3], 0, map(180-angle3,0,205,70,515));
+  
+  angle3 = 160;
+     
+  pwm.setPWM(servopin3[3], 0, map(180-angle3,0,205,70,515));
+
+
+  delay(750);
+
+  angle3 = 80;
+     
+  pwm.setPWM(servopin3[3], 0, map(180-angle3,0,205,70,515));
+
+  delay(750);
+
+}
+
+void staticPOS(){
+  
+  int angle0 = 90;
+  int angle1 = 90;
+  int angle2 = 90;
+  int angle3 = 90;
+ 
+
+  pwm.setPWM(servopin1[0], 0, map(angle0,0,205,70,515));
+  pwm.setPWM(servopin1[1], 0, map(180-angle1,0,205,70,515));
+  pwm.setPWM(servopin1[2], 0, map(180-angle2,0,205,70,515));
+  pwm.setPWM(servopin1[3], 0, map(angle3,0,205,70,515));
+
+  angle0 = 100;
+  angle1 = 90;
+  angle2 = 100;
+  angle3 = 90;
+     
+  pwm.setPWM(servopin2[0], 0, map(angle0,0,205,70,515));
+  pwm.setPWM(servopin2[1], 0, map(angle1,0,205,70,515));
+  pwm.setPWM(servopin2[2], 0, map(180-angle2,0,205,70,515));
+  pwm.setPWM(servopin2[3], 0, map(180-angle3,0,205,70,515));
+
+  angle0 = 90;
+  angle1 = 90;
+  angle2 = 90;
+  angle3 = 90;
+     
+  pwm.setPWM(servopin3[0], 0, map(angle0,0,205,70,515));
+  pwm.setPWM(servopin3[1], 0, map(angle1,0,205,70,515));
+  pwm.setPWM(servopin3[2], 0, map(180-angle2,0,205,70,515));
+  pwm.setPWM(servopin3[3], 0, map(180-angle3,0,205,70,515));
+
+}
+
+
+void set(){
+  int angle0 = 90;
+  int angle1 = 90;
+  int angle2 = 90;
+  int angle3 = 90;
+ 
+
+  pwm.setPWM(servopin1[0], 0, map(angle0,0,205,70,515));
+  pwm.setPWM(servopin1[1], 0, map(180-angle1,0,205,70,515));
+  pwm.setPWM(servopin1[2], 0, map(180-angle2,0,205,70,515));
+  pwm.setPWM(servopin1[3], 0, map(angle3,0,205,70,515));
+
+  angle0 = 70;
+  angle1 = 110;
+  angle2 = 70;
+  angle3 = 70;
+     
+  pwm.setPWM(servopin2[0], 0, map(angle0,0,205,70,515));
+  pwm.setPWM(servopin2[1], 0, map(angle1,0,205,70,515));
+  pwm.setPWM(servopin2[2], 0, map(180-angle2,0,205,70,515));
+  pwm.setPWM(servopin2[3], 0, map(180-angle3,0,205,70,515));
+
+  angle0 = 105;
+  angle1 = 90;
+  angle2 = 105;
+  angle3 = 105;
+     
+  pwm.setPWM(servopin3[0], 0, map(angle0,0,205,70,515));
+  pwm.setPWM(servopin3[1], 0, map(angle1,0,205,70,515));
+  pwm.setPWM(servopin3[2], 0, map(180-angle2,0,205,70,515));
+  pwm.setPWM(servopin3[3], 0, map(180-angle3,0,205,70,515));
+}
+
+
+void down(){
+  int angle0 = 90;
+  int angle1 = 90;
+  int angle2 = 90;
+  int angle3 = 90;
+ 
+
+  pwm.setPWM(servopin1[0], 0, map(angle0,0,205,70,515));
+  pwm.setPWM(servopin1[1], 0, map(180-angle1,0,205,70,515));
+  pwm.setPWM(servopin1[2], 0, map(180-angle2,0,205,70,515));
+  pwm.setPWM(servopin1[3], 0, map(angle3,0,205,70,515));
+
+  angle0 = 70;
+  angle1 = 70;
+  angle2 = 70;
+  angle3 = 70;
+     
+  pwm.setPWM(servopin2[0], 0, map(angle0,0,205,70,515));
+  pwm.setPWM(servopin2[1], 0, map(angle1,0,205,70,515));
+  pwm.setPWM(servopin2[2], 0, map(180-angle2,0,205,70,515));
+  pwm.setPWM(servopin2[3], 0, map(180-angle3,0,205,70,515));
+
+  angle0 = 145;
+  angle1 = 145;
+  angle2 = 145;
+  angle3 = 145;
+     
+  pwm.setPWM(servopin3[0], 0, map(angle0,0,205,70,515));
+  pwm.setPWM(servopin3[1], 0, map(angle1,0,205,70,515));
+  pwm.setPWM(servopin3[2], 0, map(180-angle2,0,205,70,515));
+  pwm.setPWM(servopin3[3], 0, map(180-angle3,0,205,70,515));
+}
+
+
+void up(){
+  int angle0 = 90;
+  int angle1 = 90;
+  int angle2 = 90;
+  int angle3 = 90;
+ 
+
+  pwm.setPWM(servopin1[0], 0, map(angle0,0,205,70,515));
+  pwm.setPWM(servopin1[1], 0, map(180-angle1,0,205,70,515));
+  pwm.setPWM(servopin1[2], 0, map(180-angle2,0,205,70,515));
+  pwm.setPWM(servopin1[3], 0, map(angle3,0,205,70,515));
+
+  angle0 = 100;
+  angle1 = 90;
+  angle2 = 100;
+  angle3 = 90;
+     
+  pwm.setPWM(servopin2[0], 0, map(angle0,0,205,70,515));
+  pwm.setPWM(servopin2[1], 0, map(angle1,0,205,70,515));
+  pwm.setPWM(servopin2[2], 0, map(180-angle2,0,205,70,515));
+  pwm.setPWM(servopin2[3], 0, map(180-angle3,0,205,70,515));
+
+  angle0 = 90;
+  angle1 = 90;
+  angle2 = 90;
+  angle3 = 90;
+     
+  pwm.setPWM(servopin3[0], 0, map(angle0,0,205,70,515));
+  pwm.setPWM(servopin3[1], 0, map(angle1,0,205,70,515));
+  pwm.setPWM(servopin3[2], 0, map(180-angle2,0,205,70,515));
+  pwm.setPWM(servopin3[3], 0, map(180-angle3,0,205,70,515));
+
+}
