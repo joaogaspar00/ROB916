@@ -1,6 +1,7 @@
-![NEG_LOGO](https://github.com/joaogaspar00/logos/blob/main/IST_A_RGB_NEG%20-%20recortado.png)
-![POS_LOGO](https://github.com/joaogaspar00/logos/blob/main/IST_A_RGB_POS_recortado.jpg)
-
 <div align="center">
-    <h2>Repositório Material ROB9-16</h2> 
-</div>  
+    <div>
+        <img src="https://github.com/joaogaspar00/logos/blob/main/IST_A_RGB_NEG%20-%20recortado.png" alt="NEG_LOGO" height="2.5cm">
+        <img src="https://github.com/joaogaspar00/logos/blob/main/ROB916transparentebranco.png" alt="ROB9-16 Logo" height="2.5cm">
+    </div>
+    <h2>Repositório Material ROB9-16</h2>
+</div>
